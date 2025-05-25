@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto/Amor Parfumé</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <div class="contenedor">
+        <div class="logo-nombre">
+          <img
+            class="logo"
+            src="/img/favicon.ico"
+            alt="logo de empresa, amour Parfumé"
+          />
+
+          <h1 class="nombre-empresa"><i>Amour Parfumé</i></h1>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main-->
+    <main>
+      <section class="formulario">
+        <h2>Registrate para recibir novedades y promociones especiales</h2>
+        <form class="formulario-contacto" action="#" method="post">
+          <label for="nombre">Nombre completo:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Escribi tu Nombre y Apellido"
+            required
+          />
+
+          <label for="fecha-nac">Fecha de nacimiento: </label>
+          <input type="date" name="fecha-nac" id="fecha-nac" />
+          <p class="regalo">
+            Con este dato podremos enviarte un cupón de descuento el dia de tu
+            cumple!🎁
+          </p>
+
+          <label for="mail">Casilla de correo:</label>
+          <input
+            type="text"
+            name="mail"
+            id="mail"
+            placeholder="Escribi tu email"
+            required
+          />
+
+          <label for="telefono">Telefono (opcional)</label>
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="Escribi tu numero de telefono sin 0 ni 15"
+          />
+
+          <label for="preferencias">Que tipo de fragancias preferís?</label>
+          <select name="prefrencias" id="preferencias">
+            <option value="Florales">Florales</option>
+            <option value="Cítricos">Cítricos</option>
+            <option value="Orientales">Orientales</option>
+            <option value="Amaderados">Amaderados</option>
+          </select>
+
+          <label for="aceptar">
+            <input type="checkbox" name="aceptar" id="aceptar" required />
+          </label>
+          Acepto recibir correos electrónicos con novedades de productos y
+          promociones.
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="pie-pagina">
+      <div class="contenedor">
+        <div class="contacto">
+          <p>© 2025 Amour Parfumé</p>
+          <p>Email: contacto@amourparfume.com</p>
+          <p>Tel: +54 341 6902354</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
